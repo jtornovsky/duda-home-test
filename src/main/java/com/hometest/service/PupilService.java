@@ -66,7 +66,7 @@ public class PupilService {
             return;
         }
 
-        // Find the best school for the pupil based on your business logic (e.g., maximizing the formula mentioned in your task description)
+        // Find the best school for the pupil based on the business logic (e.g., maximizing the formula mentioned in your task description)
         List<School> bestSchools = findBestSchoolsForEnrollment(pupil);
 
         // Iterate over the best schools and enroll the pupil in the first school that meets the criteria
